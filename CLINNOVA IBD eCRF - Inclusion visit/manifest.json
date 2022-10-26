@@ -1,0 +1,274 @@
+{
+  "modelVersion" : 1,
+  "sources" : [ {
+    "sourceType" : "repository",
+    "id" : "ibd-2s9",
+    "user" : "vanessap",
+    "repositoryId" : "ibd-2s9"
+  } ],
+  "entries" : [ {
+    "path" : "Templates/CLINNOVA IBD eCRF - Inclusion visit.t.json",
+    "type" : "template",
+    "id" : "CLINNOVA IBD eCRF - Inclusion visit",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z",
+    "dependsOn" : [ {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.montreal_classification_uc.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.pregnancy_finding.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.cd_pro_2.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.montreal_classification_cd.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.education_summary.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.occupation_record.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.vaccination_screening.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.substance_use_screening.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.body_mass_index.v2"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.ctcae.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.research_information.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-COMPOSITION.encounter.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.uc_pro_2.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.uceis.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.sescd.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.encounter_context.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.occupation_summary.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-SECTION.adhoc.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.waist_circumference.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-CLUSTER.xds_metadata.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.mayo_score.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.lemann_index.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.problem_screening.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.symptom_sign_screening.v1"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.cdai.v0"
+    }, {
+      "type" : "archetype",
+      "reference" : "openEHR-EHR-OBSERVATION.body_weight.v2"
+    } ]
+  }, {
+    "path" : "Templates/CLINNOVA IBD eCRF - Inclusion visit.opt",
+    "type" : "opt",
+    "id" : "CLINNOVA IBD eCRF - Inclusion visit",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.montreal_classification_uc.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.montreal_classification_uc.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.pregnancy_finding.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.pregnancy_finding.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.cd_pro_2.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.cd_pro_2.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.montreal_classification_cd.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.montreal_classification_cd.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.education_summary.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.education_summary.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.occupation_record.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.occupation_record.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.vaccination_screening.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.vaccination_screening.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.substance_use_screening.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.substance_use_screening.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.body_mass_index.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.body_mass_index.v2",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.ctcae.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.ctcae.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.tobacco_smoking_summary.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.research_information.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.research_information.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-COMPOSITION.encounter.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.uc_pro_2.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.uc_pro_2.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.uceis.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.uceis.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.sescd.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.sescd.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.encounter_context.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.encounter_context.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.occupation_summary.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.occupation_summary.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-SECTION.adhoc.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-SECTION.adhoc.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.waist_circumference.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.waist_circumference.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-CLUSTER.xds_metadata.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-CLUSTER.xds_metadata.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.mayo_score.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.mayo_score.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.lemann_index.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.lemann_index.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.problem_screening.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.problem_screening.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.symptom_sign_screening.v1.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.symptom_sign_screening.v1",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.cdai.v0.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.cdai.v0",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  }, {
+    "path" : "Archetypes/openEHR-EHR-OBSERVATION.body_weight.v2.adl",
+    "type" : "archetype",
+    "id" : "openEHR-EHR-OBSERVATION.body_weight.v2",
+    "sourceId" : "ibd-2s9",
+    "lastModified" : "2022-10-25T11:30:56.262Z"
+  } ]
+}
